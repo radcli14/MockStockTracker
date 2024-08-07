@@ -14,6 +14,9 @@
 		8A22BFEE2C63800E00EC358B /* StockExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22BFED2C63800E00EC358B /* StockExerciseTests.swift */; };
 		8A22BFF82C63800E00EC358B /* StockExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22BFF72C63800E00EC358B /* StockExerciseUITests.swift */; };
 		8A22BFFA2C63800E00EC358B /* StockExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22BFF92C63800E00EC358B /* StockExerciseUITestsLaunchTests.swift */; };
+		8AF1406D2C63DB7D004778C7 /* StockApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1406C2C63DB7D004778C7 /* StockApi.swift */; };
+		8AF1406F2C63DBCD004778C7 /* StockDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1406E2C63DBCD004778C7 /* StockDataModel.swift */; };
+		8AF140712C63DBEF004778C7 /* StockTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF140702C63DBEF004778C7 /* StockTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		8A22BFF32C63800E00EC358B /* StockExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A22BFF72C63800E00EC358B /* StockExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockExerciseUITests.swift; sourceTree = "<group>"; };
 		8A22BFF92C63800E00EC358B /* StockExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AF1406C2C63DB7D004778C7 /* StockApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockApi.swift; sourceTree = "<group>"; };
+		8AF1406E2C63DBCD004778C7 /* StockDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataModel.swift; sourceTree = "<group>"; };
+		8AF140702C63DBEF004778C7 /* StockTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				8A22BFDC2C63800C00EC358B /* StockExerciseApp.swift */,
+				8AF1406E2C63DBCD004778C7 /* StockDataModel.swift */,
+				8AF1406C2C63DB7D004778C7 /* StockApi.swift */,
 				8A22BFDE2C63800C00EC358B /* StockTrackerView.swift */,
+				8AF140702C63DBEF004778C7 /* StockTracker.swift */,
 				8A22BFE02C63800D00EC358B /* Assets.xcassets */,
 				8A22BFE22C63800D00EC358B /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF1406D2C63DB7D004778C7 /* StockApi.swift in Sources */,
 				8A22BFDF2C63800C00EC358B /* StockTrackerView.swift in Sources */,
+				8AF140712C63DBEF004778C7 /* StockTracker.swift in Sources */,
+				8AF1406F2C63DBCD004778C7 /* StockDataModel.swift in Sources */,
 				8A22BFDD2C63800C00EC358B /* StockExerciseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
