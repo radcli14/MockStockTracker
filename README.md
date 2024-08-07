@@ -2,6 +2,8 @@
  A potential client has an investment app, which provides educational content and has a goal of making stock trading more enjoyable. 
  As a coding exercise, they have asked to provide a solution to a remote API that is unreliable and occasionally returns errors or takes a long time to respond. 
 
+![Mock Stock Tracker Example Video](Assets/mockStockTracker.gif)
+
 ## Important Attributes
  
  The code here contains and example application implementing three aspects that are important to this situation:
